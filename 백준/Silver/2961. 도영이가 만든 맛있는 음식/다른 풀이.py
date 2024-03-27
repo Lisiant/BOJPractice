@@ -1,5 +1,3 @@
-```python
-
 N = int(input())
 ingredients = []
 answer = float("inf")
@@ -22,6 +20,3 @@ def dfs(idx, s, b, used):
 
 dfs(0, 1, 0, 0)
 print(answer)
-
-
-```
